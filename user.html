@@ -11,13 +11,36 @@
 </head>
 
 <body>
-    <ul class="list-group">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
-        <li class="list-group-item">And a fifth one</li>
-    </ul>
+    <div class="container">
+        <h1 class="my-4">User Details: <span id="user-name"></span></h1>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <strong>Email:</strong> <span id="user-email"></span>
+            </li>
+            <li class="list-group-item">
+                <strong>Phone:</strong> <span id="user-phone"></span>
+            </li>
+            <li class="list-group-item">
+                <strong>Website:</strong> <a id="user-website" href=""></a>
+            </li>
+            <li class="list-group-item">
+                <strong>Address:</strong> <span id="user-address"></span>
+            </li>
+            <li class="list-group-item">
+                <strong>City:</strong> <span id="user-city"></span>
+            </li>
+            <li class="list-group-item">
+                <strong>Company:</strong> <span id="user-company"></span>
+            </li>
+            <li class="list-group-item">
+                <strong>Company Catchphrase:</strong>
+                <span id="user-company-catchphrase"></span>
+            </li>
+        </ul>
+        <button id="view-posts" class="btn btn-primary mt-3">
+            View Posts
+        </button>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="user.js"></script>
 </body>

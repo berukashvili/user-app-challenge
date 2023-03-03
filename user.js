@@ -17,4 +17,8 @@ $(document).ready(function () {
       $("#user-company-catchphrase").text(user.company.catchPhrase);
     }
   );
+
+  $("#view-posts").click(function () {
+    window.location.href = "posts.html?userId=" + userId;
+  });
 });
